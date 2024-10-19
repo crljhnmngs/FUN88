@@ -7,7 +7,7 @@ import { Footer } from '../components/Footer'
 export const Home = () => {
 
   return (
-    <div className='h-maxHeight w-maxWidth font-poppins   '>
+    <div className='h-maxHeight w-maxWidth font-poppins'>
         <Header></Header>
         <Hero></Hero>
         <Menu></Menu>
