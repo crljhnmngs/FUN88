@@ -24,9 +24,28 @@ export type FavoritesState = {
 export type GamesProps = GamesState & FavoritesState & {
     handleFavorite: (gameId: number) => void;
     currentCategory: string;
-    filterBy?: string;
+    filterBy?: string | null;
+    searchData?: string | null;
+    selectedProvider?: string | null;
 };
 
 export type FooterState = {
     activeFooter: string;
+}
+
+export type GameProvider = {
+    name: string;
+    img: string;
+    numberOfGames: number;
+}
+
+export type GameProviderState = {
+    provider: GameProvider[];
+}
+
+export type ProviderModalProps =  {
+    isOpen: boolean;
+    onClose: () => void;
+    title: string;
+    onProviderSelect: (providerName: string) => void;
 }

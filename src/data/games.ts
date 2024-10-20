@@ -19,14 +19,14 @@ export const games: Games[] = [
         name: 'Sugar Rush',
         img: SugarRush,
         category: 'NEW',
-        provider: "Pragmatic Play"
+        provider: "Pragmatic"
     },
     {
         id: 2,
         name: 'Shaolin Crew',
         img: Crew,
         category: 'NEW',
-        provider: 'XPANZ'
+        provider: 'EXPANSE'
     },
     {
         id: 3,
@@ -40,14 +40,14 @@ export const games: Games[] = [
         name: 'Book Of Egypt',
         img: Book,
         category: 'NEW',
-        provider: 'XPANZ'
+        provider: 'EXPANSE'
     },
     {
         id: 5,
         name: 'Pirates Power',
         img: Pirates,
         category: 'SLOTS',
-        provider: 'XPANZ'
+        provider: 'EXPANSE'
     },
     {
         id: 6,

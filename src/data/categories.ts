@@ -8,8 +8,6 @@ import { ReactComponent as Bingo } from '../assets/icons/bingo.svg';
 import { ReactComponent as Others } from '../assets/icons/others.svg';
 import { Category } from '../types';
 
-
-
 export const categories: Category[] = [
     {
         name: 'START',
